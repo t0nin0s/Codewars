@@ -1,15 +1,17 @@
 CodeWars
 =========
 
-I have plenty of hobbies but sometimes I also have fun solving JS problems. This repo contains
-some Katas I hve solved in CodeWars in my spare time.
+I have plenty of hobbies but sometimes I also have fun solving JS problems. This
+repository contains some Katas I have solved in CodeWars in my spare time.
 
 Enjoy!
 
 ## Installation
 
-  `git clone https://github.com/t0nin0s/codewars`
-  `cd codewars`
+Make sure you have Node.js installed.
+
+    1. `git clone https://github.com/t0nin0s/codewars`
+    2. `cd codewars`
 
 ## Tests
 
