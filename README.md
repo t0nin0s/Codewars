@@ -10,8 +10,8 @@ Enjoy!
 
 Make sure you have Node.js installed.
 
-    1. `git clone https://github.com/t0nin0s/codewars`
-    2. `cd codewars`
+  1. `git clone https://github.com/t0nin0s/codewars`
+  2. `cd codewars`
 
 ## Tests
 
