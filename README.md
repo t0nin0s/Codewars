@@ -17,7 +17,7 @@ Make sure you have Node.js installed.
 
 ###  `npm run test $file`
   Executes tests for the giving file, where file could be:
-  1. Ensure
+  1. ensure
   2. replaceWithAlphabetPos
 
 
