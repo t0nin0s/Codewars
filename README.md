@@ -25,3 +25,4 @@ Make sure you have Node.js installed.
 ### `npm run all`
 
   Executes all the tests.
+
