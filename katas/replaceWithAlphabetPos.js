@@ -1,4 +1,10 @@
-var assert = require('assert');
+/**
+* In this kata you are required to, given a string, replace every letter with
+* its position in the alphabet. If anything in the text isn't a letter, ignore
+* it and don't return it. a being 1, b being 2, etc.
+* @param {String} text
+* @return {String} translated
+*/
 
 var alphabetPosition = function (text) {
   var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];

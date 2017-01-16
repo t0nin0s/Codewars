@@ -4,7 +4,8 @@
   "description": "",
   "main": "replaceWithAlphabetPos.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --grep",
+    "all": "mocha"
   },
   "author": "",
   "license": "ISC",
