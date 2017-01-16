@@ -15,4 +15,13 @@ Make sure you have Node.js installed.
 
 ## Tests
 
-  `npm test`
+  `npm run test $file`
+  Executes tests for the giving file, where file could be:
+  1. Ensure
+  2. replaceWithAlphabetPos
+
+
+  `npm run all`
+
+  Executes all the tests.
+
