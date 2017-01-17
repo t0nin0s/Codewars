@@ -16,13 +16,15 @@ Make sure you have Node.js installed.
 
 ## Tests
 
-###  `npm run test $file`
+Running specific tests
+
+###  `npm run test --grep test/$file`
   Executes tests for the giving file, where file could be:
-  1. ensure
-  2. replaceWithAlphabetPos
+  1. ensure.js
+  2. replaceWithAlphabetPos.js
+  3. formatDate.js
 
 
-### `npm run all`
+### `npm test`
 
   Executes all the tests.
-
