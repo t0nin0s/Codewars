@@ -10,7 +10,7 @@ describe('prefix Set', function () {
       assert.equal(prefixSet([3, 7, 1, 13, 1, 3, 8, 13, 3, 7, 8]), 6)
     })
     it('should return index 1', function () {
-      assert.equal(prefixSet([1, 1, 1, 1, 1, 1, 1, '1', 1]), 6)
+      assert.equal(prefixSet([1, 1, 1, 1, 1, 1, 1, '1', 1]), 0)
     })
   })
 })
