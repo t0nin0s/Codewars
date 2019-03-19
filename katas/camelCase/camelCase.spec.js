@@ -1,5 +1,5 @@
 var assert = require('assert')
-var camelCase = require('../katas/camelCase')
+var camelCase = require('./camelCase')
 
 describe('camel Case', function () {
   describe('1st set of tests', function () {

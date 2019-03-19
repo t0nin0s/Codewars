@@ -1,5 +1,5 @@
 var assert = require('assert')
-var balancedBrackets = require('../katas/balancedBrackets')
+var balancedBrackets = require('./balancedBrackets')
 
 describe('Balanced Brackets', function () {
   describe('1st set of tests', function () {

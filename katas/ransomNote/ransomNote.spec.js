@@ -1,5 +1,5 @@
 var assert = require('assert')
-var ransomNote = require('../katas/ransomNote')
+var ransomNote = require('./ransomNote')
 
 describe('ransom Note', function () {
   describe('1st set of tests', function () {

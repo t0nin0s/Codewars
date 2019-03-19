@@ -1,5 +1,5 @@
 var assert = require('assert');
-var formatDate = require('../katas/formatDate');
+var formatDate = require('./formatDate');
 
 describe('formatDate function Testing', function() {
   it('Two-digit month and day', function() {

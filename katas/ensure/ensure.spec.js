@@ -1,5 +1,5 @@
 var assert = require('assert');
-var ensure = require('../katas/ensure');
+var ensure = require('./ensure');
 
 describe('ensure function Testing', function() {
   it('Should throw error no arguments found', function() {

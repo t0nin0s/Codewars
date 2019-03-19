@@ -4,7 +4,7 @@
   "description": "",
   "main": "replaceWithAlphabetPos.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha **/*.spec.js",
     "all": "mocha"
   },
   "author": "",

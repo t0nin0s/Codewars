@@ -1,5 +1,5 @@
 var assert = require('assert')
-var leftRotation = require('../katas/leftRotation')
+var leftRotation = require('./leftRotation')
 
 describe('Left Rotation', function () {
   describe('1st set of tests', function () {

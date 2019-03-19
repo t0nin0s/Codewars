@@ -1,5 +1,5 @@
 var assert = require('assert');
-var alphabetPosition = require('../katas/replaceWithAlphabetPos');
+var alphabetPosition = require('./replaceWithAlphabetPos');
 
 describe('replaceWithAlphabetPos', function() {
   describe('1st set of tests', function() {

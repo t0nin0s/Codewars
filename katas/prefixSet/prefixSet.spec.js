@@ -1,5 +1,5 @@
 var assert = require('assert')
-var prefixSet = require('../katas/prefixSet')
+var prefixSet = require('./prefixSet')
 
 describe('prefix Set', function () {
   describe('1st set of tests', function () {
