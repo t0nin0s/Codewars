@@ -3,10 +3,8 @@
 //The program calculates and shows the time one second after.
 //Incorrect inputs must be taken into account
 
-function followingSecond() {
-  let second = prompt("Current second");
-  let minute = prompt("Current minute");
-  let hour = prompt("Current hour");
+function followingSecond(userInput) {
+  var [ second, minute, hour] = userInput.split(',')
   //case midnight
   if (second >= 59 && minute >= 59 && hour >= 23) {
     second = 0;
@@ -27,9 +25,11 @@ function followingSecond() {
     minute++;
     return `time is ${hour} hours: ${minute} minutes : ${second} seconds`;
   }
-  //case minute forward
+  //case seconds + 1
   else {
     return `time is ${hour} hours: ${minute} minutes : ${Number(second) +
       1} seconds`;
   }
 }
+
+module.exports = followingSecond
