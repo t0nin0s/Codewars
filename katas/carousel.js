@@ -9,8 +9,8 @@ function carousel(userTurn) {
 
   while (turn <= userTurn) {
     turn++;
-    return `this is turn number ${userTurn}`;
   }
+  return `this is turn number ${userTurn}`;
 }
 
 module.exports = carousel;
