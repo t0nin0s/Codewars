@@ -1,3 +1,6 @@
+var assert = require("assert");
+var sumIntegers = require("../katas/sumIntegers");
+
 describe("ensure sums Integers", function() {
   it("add numbers from 0 to n", function() {
     assert.equal(sumIntegers(100), "5050");
