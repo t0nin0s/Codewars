@@ -1,7 +1,7 @@
 var assert = require("assert");
 var sumPositives = require("../katas/sumPositives");
 
-describe.only("sums numbers in array", function() {
+describe("sums numbers in array", function() {
   it("sums positive numbers", function() {
     assert.equal(sumPositives([-1, 2, 3]), 5);
   });

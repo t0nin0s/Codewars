@@ -1,10 +1,10 @@
 function functionalAddition(n) {
-  if (isNaN(n)) throw "first param is not a number";
+  if (isNaN(n)) throw new Error("first param is not a number");
   return function(numero) {
     if (!isNaN(numero)) {
       return numero + n;
     } else {
-      throw "second param is not a number";
+      throw new Error("second param is not a number");
     }
   };
 }
