@@ -1,7 +1,7 @@
 var assert = require("assert");
 var mumbling = require("../katas/mumbling");
 
-describe.only("mumbling", function() {
+describe("mumbling", function() {
   it("should return mumbles", function() {
     assert.equal(mumbling("abcd"), "A-Bb-Ccc-Dddd");
   });
