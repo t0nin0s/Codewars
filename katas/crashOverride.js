@@ -1,3 +1,4 @@
+
 const firstName = {
   A: "Alpha",
   B: "Beta",
@@ -25,35 +26,35 @@ const firstName = {
   X: "Xerox",
   Y: "Y",
   Z: "Zero"
-};
-const surName = {
-  A: "Alpha",
-  B: "Beta",
-  C: "Cache",
-  D: "Data",
-  E: "Energy",
-  F: "Function",
-  G: "Glitch",
-  H: "Half-life",
-  I: "Ice",
-  J: "Java",
-  K: "Keystroke",
-  L: "Logic",
-  M: "Malware",
-  N: "Nagware",
-  O: "OS",
-  P: "Phishing",
-  Q: "Quantum",
-  R: "RAD",
-  S: "Strike",
-  T: "Trojan",
-  U: "Ultraviolet",
-  V: "Vanilla",
-  W: "WiFi",
-  X: "Xerox",
-  Y: "Y",
-  Z: "Zero"
-};
+},
+  (surName = {
+    A: "Alpha",
+    B: "Beta",
+    C: "Cache",
+    D: "Data",
+    E: "Energy",
+    F: "Function",
+    G: "Glitch",
+    H: "Half-life",
+    I: "Ice",
+    J: "Java",
+    K: "Keystroke",
+    L: "Logic",
+    M: "Malware",
+    N: "Nagware",
+    O: "OS",
+    P: "Phishing",
+    Q: "Quantum",
+    R: "RAD",
+    S: "Strike",
+    T: "Trojan",
+    U: "Ultraviolet",
+    V: "Vanilla",
+    W: "WiFi",
+    X: "Xerox",
+    Y: "Y",
+    Z: "Zero"
+  });
 
 function crashOverride(first, last) {
   if (!isNaN(first[0]) || !isNaN(last[0])) {
