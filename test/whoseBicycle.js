@@ -1,7 +1,7 @@
 var assert = require("assert");
 var whoseBicycle = require("../katas/whoseBicycle");
 
-const marks1 = {
+const lowest = {
   algebra: 0,
   history: 7,
   physics: 8,
@@ -9,7 +9,7 @@ const marks1 = {
   chemistry: 10
 };
 
-const marks2 = {
+const medium = {
   algebra: 1000,
   history: 0,
   physics: 8,
@@ -17,7 +17,7 @@ const marks2 = {
   chemistry: 4
 };
 
-const marks3 = {
+const highest = {
   algebra: 3000,
   history: 0,
   physics: 0,
@@ -25,14 +25,29 @@ const marks3 = {
   chemistry: 0
 };
 
-describe.only("whoseBicycle", () => {
-  it("should tell which son will get the cycle", () => {
+describe("whoseBicycle", () => {
+  it("first son will get the bike", () => {
     assert.equal(
-      whoseBicycle(marks1, marks2, marks3),
+      whoseBicycle(highest, medium, lowest),
+      "I will buy a cycle to my first son"
+    );
+  });
+  it("second son will get the bike", () => {
+    assert.equal(
+      whoseBicycle(lowest, highest, medium),
+      "I will buy a cycle to my second son"
+    );
+  });
+  it("third son will get the bike", () => {
+    assert.equal(
+      whoseBicycle(lowest, medium, highest),
       "I will buy a cycle to my third son"
     );
   });
-  it("should not accept strings", () => {
-    assert.equal(whoseBicycle("a", marks2, "c"), "strings not accepted");
+  it("third son will get the bike if same marks", () => {
+    assert.equal(
+      whoseBicycle(lowest, highest, highest),
+      "I will buy a cycle to my third son"
+    );
   });
 });
