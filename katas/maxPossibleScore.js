@@ -5,8 +5,6 @@ function maxPossibleScore(obj, arr) {
   }, 0)
 }
 
-
-
 module.exports = maxPossibleScore;
 
 

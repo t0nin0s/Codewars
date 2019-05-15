@@ -1,7 +1,7 @@
 var assert = require('assert');
 var maxPossibleScore = require('../katas/maxPossibleScore')
 
-describe.only('maxPossibleScore', () => {
+describe('maxPossibleScore', () => {
   it("should return 30", () => {
     assert.equal(maxPossibleScore({ "a": 2, "b": 5, "c": 8 }, ["a", "b", "c"]), "30")
   })
